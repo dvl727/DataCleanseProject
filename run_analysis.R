@@ -27,10 +27,6 @@ y_train<-tbl_df(y_train)
 subj_train<-read.table(paste(train_path,"subject_train.txt", sep=""))
 subj_train<-tbl_df(subj_train)
 
-# Concatenate subject with file reference (differentiate the subjects)
-#subj_test$V1[]<-paste(subj_test$V1[], "test",sep="_")
-#subj_train$V1[]<-paste(subj_train$V1[],"train", sep="_")
-
 #Rename subject and activty columns
 colnames(subj_test)<- c("subject_id")
 colnames(subj_train)<-c("subject_id")
