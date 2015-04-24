@@ -10,6 +10,6 @@
  6.  Adds the subject_id and activity_id records to the test and train data files.
  7.  Adds the feature names as columns to the datasets
  8.  Merges the test and train datasets into a combined dataset with the same columns (features).
- 9.  Limits data to only features related to the mean and standard devation features.
+ 9.  Limits data to only features related to the mean and standard deviation features.
  10.  Relabels the merged dataset columns per standards (CamelCase, consistency, remove errors in name i.e. BodyBody)
- 11.  Summarizes the dataset by Subject_Id and Activity_ID and calculates the average value for each feature.
+ 11.  Summarizes the dataset by Subject_Id and Activity_ID and calculates the average value for each feature.  Data is stored in tidy data frame 'avg_act'.
