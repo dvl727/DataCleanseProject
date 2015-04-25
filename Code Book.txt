@@ -90,7 +90,7 @@ General description of the file including:
  - Dimensions of the dataset
    The dataset is 180 rows with 81 columns (features)
  - Summary of the data
-    SubjectID             ActvID Time.Body.Accel.Mean.X Time.Body.Accel.Mean.Y Time.Body.Accel.Mean.Z  ... (additional columns)
+    SubjectID             ActvID     TimeBodyAccelMeanX      TimeBodyAccelMeanY      TimeBodyAccelMean.Z  ... (additional columns)
 1          1            WALKING              0.2773308           -0.017383819             -0.1111481
 2          1   WALKING_UPSTAIRS              0.2554617           -0.023953149             -0.0973020
 3          1 WALKING_DOWNSTAIRS              0.2891883           -0.009918505             -0.1075662
@@ -130,398 +130,398 @@ Class: "factor"
 values/levels:  Walking, WALKING_DOWNSTAIRS, Walking_Upstairs, Sitting, STANDING, LAYING
 UoM: None
 
-Time.Body.Accel.Mean.X
+TimeBodyAccelMeanX
 Description: Time captured Body Acceleration in X direction (mean)
 Class: "numeric"
 Values/levels (min/max): 0.22159824  0.301461020
 
 
-Time.Body.Accel.Mean.Y
+TimeBodyAccelMeanY
 Description: Time captured Body Acceleration in Y direction (mean)
 Class: "numeric"
 values/levels(min/max): -0.04051395 -0.001308288 
 
-Time.Body.Accel.Mean.Z
+TimeBodyAccelMeanZ
 Description: Time captured Body Acceleration in Z direction (mean)
 Class: "numeric"
 values/levels(min/max): -0.15251390 -0.075378469
 
-Time.Body.Accel.Std.X
+TimeBodyAccelStdX
 Description: Time captured Body Acceleration in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max):  -0.99606864  0.626917071
 
-Time.Body.Accel.Std.Y
+TimeBodyAccelStdY
 Description: Time captured Body Acceleration in Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99024095  0.616937015
 
-Time.Body.Accel.Std.Z
+TimeBodyAccelStdZ
 Description: Time captured Body Acceleration in Z direction (Standard Deviation)
 Class:"numeric"
 values/levels(min/max): -0.98765866  0.609017879
 
-Time.Gravity.Accel.Mean.X
+TimeGravityAccelMeanX
 Description: Time captured Gravity Acceleration in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.68004316  0.974508732
 
-Time.Gravity.Accel.Mean.Y 
+TimeGravityAccelMeanY 
 Description: Time captured Gravity Acceleration in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.47989484  0.956593814
 
-Time.Gravity.Accel.Mean.Z 
+TimeGravityAccelMeanZ 
 Description: Time captured Gravity Acceleration in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.49508872  0.957873042
 
-Time.Gravity.Accel.Std.X
+TimeGravityAccelStdX
 Description: Time captured Gravity Acceleration in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99676423 -0.829554948
 
-Time.Gravity.Accel.Std.Y
+TimeGravityAccelStdY
 Description: Time captured Gravity Acceleration in Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99424765 -0.643578361
 
-Time.Gravity.Accel.Std.Z
+TimeGravityAccelStdZ
 Description: Time captured Gravity Acceleration in Z direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99095725 -0.610161166
 
-Time.Body.Accel.Jerk.Mean.X
+TimeBodyAccelJerkMeanX
 Description: Time captured body linear acceleration in X direction (mean)
 Class: "numeric"
 values/levels(min/max):  0.04268810  0.130193044
 
-Time.Body.Accel.Jerk.Mean.Y
+TimeBodyAccelJerkMeanY
 Description: Time captured body linear acceleration in Y direction (mean)
 Class: "numeric"
 values/levels(min/max): -0.03868721  0.056818586
 
-Time.Body.Accel.Jerk.Mean.Z
+TimeBodyAccelJerkMeanZ
 Description: Time captured body linear acceleration in Z direction (mean)
 Class: "numeric"
 values/levels(min/max): -0.06745839  0.038053359
 
-Time.Body.Accel.Jerk.Std.X
+TimeBodyAccelJerkStdX
 Description: Time captured body linear acceleration velocity in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99460454  0.544273037
 
-Time.Body.Accel.Jerk.Std.Y
+TimeBodyAccelJerkStdY
 Description: Time captured body linear acceleration in Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.98951357  0.355306717
 
-Time.Body.Accel.Jerk.Std.Z
+TimeBodyAccelJerkStdZ
 Description: Time captured body linear acceleration in Z direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99328831  0.031015708
 
-Time.Body.Gyro.Mean.X
+TimeBodyGyroMeanX
 Description: Time captured body angular velocity in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.20577543  0.192704476
 
-Time.Body.Gyro.Mean.Y
+TimeBodyGyroMeanY
 Description: Time captured body angular velocity in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.20420536  0.027470756
 
-Time.Body.Gyro.Mean.Z
+TimeBodyGyroMeanZ
 Description: Time captured body angular velocity in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.07245460  0.179102058
 
-Time.Body.Gyro.Std.X
+TimeBodyGyroStdX
 Description: Time captured body angular velocity in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99427659  0.267657219
 
-Time.Body.Gyro.Std.Y
+TimeBodyGyroStdY
 Description: Time captured body angular velocity in Y direction (Standard devation)
 Class: "numeric"
 values/levels(min/max): -0.99421047  0.476518714
 
-Time.Body.Gyro.Std.Z
+TimeBodyGyroStdZ
 Description: Time captured body angular velocity in Z direction (Standard devation)
 Class: "numeric"
 values/levels(min/max): -0.98553836  0.564875818
 
-Time.Body.Gyro.Jerk.Mean.X
+TimeBodyGyroJerkMeanX
 Description: Time captured body angular velocity jerk in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.15721254 -0.022091627
 
-Time.Body.Gyro.Jerk.Mean.Y
+TimeBodyGyroJerkMeanY
 Description: Time captured body angular velocity jerk in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.07680899 -0.013202277
 
-Time.Body.Gyro.Jerk.Mean.Z
+TimeBodyGyroJerkMeanZ
 Description: Time captured body angular velocity jerk in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.09249985 -0.006940664
 
-Time.Body.Gyro.Jerk.Std.X
+TimeBodyGyroJerkStdX
 Description: Time captured body angular velocity jerk in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99654254  0.179148650
 
-Time.Body.Gyro.Jerk.Std.Y
+TimeBodyGyroJerkStdY
 Description: Time captured body angular velocity jerk in Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99708158  0.295945926
 
-Time.Body.Gyro.Jerk.Std.Z
+TimeBodyGyroJerkStdZ
 Description: Time captured body angular velocity jerk in Z direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99538079  0.193206499
 
-Time.Body.Accel.Mag.Mean
+TimeBodyAccelMagMean
 Description: Time captured body Acceleration (Fourier Transform signal) (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98649320  0.644604325
 
-Time.Body.Accel.Mag.Std
+TimeBodyAccelMagStd
 Description: Time captured body Acceleration (Fourier Transform signal)(Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.98646454  0.428405923
 
-Time.Gravity.Accel.Mag.Mean
+TimeGravityAccelMagMean
 Description: Time captured Gravity Acceleration (Fourier Transform signal)(Mean)
 Class: "numeric"
 values/levels(min/max): -0.98649320  0.644604325
 
-Time.Gravity.Accel.Mag.Std
+TimeGravityAccelMagStd
 Description: Time captured Gravity Acceleration (Fourier Transform signal)(Standard devation)
 Class: "numeric"
 values/levels(min/max): -0.98646454  0.428405923
 
-Time.Body.Accel.Jerk.Mag.Mean
+TimeBodyAccelJerkMagMean
 Description: Time captured Gravity Acceleration (Fourier Transform signal) Jerk (Mean)
 Class:"numeric"
 values/levels(min/max): -0.99281472  0.434490401
 
-Time.Body.Accel.Jerk.Mag.Std
+TimeBodyAccelJerkMagStd
 Description: Time captured Gravity Acceleration (Fourier Transform signal) Jerk (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99464692  0.450612066
 
-Time.Body.Gyro.Mag.Mean
+TimeBodyGyroMagMean
 Description: Time captured Angular velocity (Fourier Transform signal) (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98074085  0.418004609
 
-Time.Body.Gyro.Mag.Std
+TimeBodyGyroMagStd
 Description: Time captured Angular velocity (Fourier Transform signal) (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.98137268  0.299975980
 
-Time.Body.Gyro.Jerk.Mag.Mean
+TimeBodyGyroJerkMagMean
 Description: Time captured Angular velocity (Fourier Transform signal) Jerk (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99732253  0.087581662
 
-Time.Body.Gyro.Jerk.Mag.Std
+TimeBodyGyroJerkMagStd
 Description: Time captured Angular velocity (Fourier Transform signal) Jerk (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99766607  0.250173204
 
-Freq.Body.Accel.Mean.X
+FreqBodyAccelMeanX
 Description: Frequency captured Acceleration in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99524993  0.537012022
 
-Freq.Body.Accel.Mean.Y
+FreqBodyAccelMeanY
 Description: Frequency captured Acceleration in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98903430  0.524187687
 
-Freq.Body.Accel.Mean.Z
+FreqBodyAccelMeanZ
 Description: Frequency captured Acceleration in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98947393  0.280735952
 
-Freq.Body.Accel.Std.X
+FreqBodyAccelStdX
 Description: Frequency captured Acceleration in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99660457  0.658506543
 
-Freq.Body.Accel.Std.Y
+FreqBodyAccelStdY
 Description: Frequency captured Acceleration in Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99068040  0.560191344
 
-Freq.Body.Accel.Std.Z
+FreqBodyAccelStdZ
 Description: Frequency captured Acceleration in Z direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.98722480  0.687124164
 
-Freq.Body.Accel.Mean.Freq.X
+FreqBodyAccelMeanFreqX
 Description: Frequency Body captured Acceleration in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.63591305  0.159123629
 
-Freq.Body.Accel.Mean.Freq.Y
+FreqBodyAccelMeanFreqY
 Description: Frequency Body captured Acceleration in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.37951846  0.466528232
 
-Freq.Body.Accel.Mean.Freq.Z
+FreqBodyAccelMeanFreqZ
 Description: Frequency Body captured Acceleration in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.52011479  0.402532553
 
-Freq.Body.Accel.Jerk.Mean.X
+FreqBodyAccelJerkMeanX
 Description: Frequency Body captured Acceleration jerk in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99463080  0.474317256
 
-Freq.Body.Accel.Jerk.Mean.Y
+FreqBodyAccelJerkMeanY
 Description: Frequency Body captured Acceleration jerk in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98939882  0.276716853
 
-Freq.Body.Accel.Jerk.Mean.Z
+FreqBodyAccelJerkMeanZ
 Description: Frequency Body captured Acceleration jerk in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99201845  0.157775692
 
-Freq.Body.Accel.Jerk.Std.X
+FreqBodyAccelJerkStdX
 Description: Frequency Body captured Acceleration jerk in X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99507376  0.476803887
 
-Freq.Body.Accel.Jerk.Std.Y
+FreqBodyAccelJerkStdY
 Description: Frequency Body captured Acceleration jerk in Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99046808  0.349771285
 
-Freq.Body.Accel.Jerk.Std.Z
+FreqBodyAccelJerkStdZ
 Description: Frequency Body captured Acceleration jerk in Z direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99310776 -0.006236475
 
-Freq.Body.Accel.Jerk.Mean.Freq.X
+FreqBodyAccelJerkMeanFreq.X
 Description: Frequency Body captured Acceleration jerk frequency in X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.57604400  0.331449281
 
-Freq.Body.Accel.Jerk.Mean.Freq.Y
+FreqBodyAccelJerkMeanFreqY
 Description: Frequency Body captured Acceleration jerk frequency in Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.60197142  0.195677336
 
-Freq.Body.Accel.Jerk.Mean.Freq.Z
+FreqBodyAccelJerkMeanFreqZ
 Description: Frequency Body captured Acceleration jerk frequency in Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.62755547  0.230107946
 
-Freq.Body.Gyro.Mean.X
+FreqBodyGyroMeanX
 Description: Frequency Body/Gyro average for X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99312261  0.474962448
 
-Freq.Body.Gyro.Mean.Y
+FreqBodyGyroMeanY
 Description: Frequency Body/Gyro average for Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99402549  0.328817010
 
-Freq.Body.Gyro.Mean.Z
+FreqBodyGyroMeanZ
 Description: Frequency Body/Gyro average for Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98595779  0.492414380
 
-Freq.Body.Gyro.Std.X
+FreqBodyGyroStdX
 Description: Frequency Body/Gyro average for X direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.15251390 -0.075378469
 
-Freq.Body.Gyro.Std.Y
+FreqBodyGyroStdY
 Description: Frequency Body/Gyro average for Y direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.15251390 -0.075378469
 
-Freq.Body.Gyro.Std.Z
+FreqBodyGyroStdZ
 Description: Frequency Body/Gyro average for Z direction (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.15251390 -0.075378469
 
-Freq.Body.Gyro.Mean.Freq.X
+FreqBodyGyroMeanFreqX
 Description: Frequency Body/Gyro average frequency for X direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99465219  0.196613287
 
-Freq.Body.Gyro.Mean.Freq.Y
+FreqBodyGyroMeanFreqY
 Description: Frequency Body/Gyro average frequency for Y direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99435309  0.646233637
 
-Freq.Body.Gyro.Mean.Freq.Z
+FreqBodyGyroMeanFreqZ
 Description: Frequency Body/Gyro average frequency for Z direction (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98672527  0.522454216
 
-Freq.Body.Accel.Mag.Mean
+FreqBodyAccelMagMean
 Description: Frequency Body Acceleration Magnitude (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98680065  0.586637551
 
-Freq.Body.Accel.Mag.Std
+FreqBodyAccelMagStd
 Description: Frequency Body Acceleration Magnitude (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.15251390 -0.075378469
 
-Freq.Body.Accel.Mag.Mean.Freq
+FreqBodyAccelMagMeanFreq
 Description: Frequency Body Acceleration Magnitude Frequency (Mean)
 Class: "numeric"
 values/levels(min/max): -0.31233803  0.435846932
 
-Freq.Body.Accel.Jerk.Mag.Mean
+FreqBodyAccelJerkMagMean
 Description: Frequency Body Acceleration Jerk Magnitude (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99399828  0.538404846
 
-Freq.Body.Accel.Jerk.Mag.Std
+FreqBodyAccelJerkMagStd
 Description: Frequency Body Acceleration Jerk Magnitude (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99436667  0.316346415
 
-Freq.Body.Accel.Jerk.Mag.Mean.Freq
+FreqBodyAccelJerkMagMeanFreq
 Description: Frequency Body Acceleration Jerk Magnitude (Mean Frequency)
 Class: "numeric"
 values/levels(min/max): -0.12521039  0.488088500
 
-Freq.Body.Gyro.Mag.Mean
+FreqBodyGyroMagMean
 Description: Frequency Body/Gyro Magnitude (Mean)
 Class: "numeric"
 values/levels(min/max): -0.98653524  0.203979765
 
-Freq.Body.Gyro.Mag.Std
+FreqBodyGyroMagStd
 Description: Frequency Body Magnitude (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.98146884  0.236659662
 
-Freq.Body.Gyro.Mag.Mean.Freq
+FreqBodyGyroMagMeanFreq
 Description: Frequency Body/Gyro Magnitude frequency (Mean)
 Class: "numeric"
 values/levels(min/max): -0.45663867  0.409521612
 
-Freq.Body.Gyro.Jerk.Mag.Mean
+FreqBodyGyroJerkMagMean
 Description: Frequency Body/Gyro Jerk Magnitude (Mean)
 Class: "numeric"
 values/levels(min/max): -0.99761739  0.146618569
 
-Freq.Body.Gyro.Jerk.Mag.Std
+FreqBodyGyroJerkMagStd
 Description: Frequency Body/Gyro Jerk Magnitude (Standard Deviation)
 Class: "numeric"
 values/levels(min/max): -0.99758523  0.287834616
 
-Freq.Body.Gyro.Jerk.Mag.Mean.Freq
+FreqBodyGyroJerkMagMeanFreq
 Description: Frequency Body/Gyro Jerk Magnitude Frequency (Mean)
 Class: "numeric"
 values/levels(min/max): -0.18292360  0.426301680

@@ -55,27 +55,26 @@ mnstd$act_id<-xy_merge$act_id
 # Name the activity names using descriptive variable names
 
 # (Step 4) Label data sets with descriptive variable names
-names(mnstd)<-gsub("^t","Time.",names(mnstd))
-names(mnstd)<-gsub("^f","Freq.",names(mnstd))
+names(mnstd)<-gsub("^t","Time",names(mnstd))
+names(mnstd)<-gsub("^f","Freq",names(mnstd))
 names(mnstd)<-gsub("BodyBody","Body", names(mnstd))
-names(mnstd)<-gsub("Body","Body.", names(mnstd))
-names(mnstd)<-gsub("Acc","Accel.",names(mnstd))
-names(mnstd)<-gsub("Gyro","Gyro.", names(mnstd))
-names(mnstd)<-gsub("Gravity","Gravity.", names(mnstd))
-names(mnstd)<-gsub("Jerk", "Jerk.", names(mnstd))
+names(mnstd)<-gsub("Body","Body", names(mnstd))
+names(mnstd)<-gsub("Acc","Accel",names(mnstd))
+names(mnstd)<-gsub("Gyro","Gyro", names(mnstd))
+names(mnstd)<-gsub("Gravity","Gravity", names(mnstd))
+names(mnstd)<-gsub("Jerk", "Jerk", names(mnstd))
 names(mnstd)<-gsub("-","",names(mnstd))
-names(mnstd)<-gsub("\\(",".",names(mnstd))
+names(mnstd)<-gsub("\\(","",names(mnstd))
 names(mnstd)<-gsub("\\)","",names(mnstd))
-names(mnstd)<-gsub("mean","Mean.",names(mnstd))
-names(mnstd)<-gsub("std","Std.", names(mnstd))
-names(mnstd)<-gsub("Mag","Mag.", names(mnstd))
-names(mnstd)<-gsub("\\.{2}", ".", names(mnstd))
+names(mnstd)<-gsub("mean","Mean",names(mnstd))
+names(mnstd)<-gsub("std","Std", names(mnstd))
+names(mnstd)<-gsub("Mag","Mag", names(mnstd))
+names(mnstd)<-gsub("\\.{2}", "", names(mnstd))
 names(mnstd)<-gsub("[.]+$","",names(mnstd))
 names(mnstd)<-gsub("subject_id","SubjectID",names(mnstd))
 names(mnstd)<-gsub("act_id","ActvID",names(mnstd))
 
 
 # From Step 4, create another dataset with the average of each variable for each activity
-#mnstd2<-select(mnstd, -(subject_id))
 avg_act<- mnstd %>% group_by(SubjectID, ActvID) %>% summarise_each(funs(mean)) %>% arrange(SubjectID, ActvID)
 
